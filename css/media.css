@@ -1,0 +1,121 @@
+@media (max-width: 1199.98px) {
+    header nav {
+        margin-bottom: 50px;
+    }
+
+    .header-content .col-xl-2 {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .row-mt{
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    header nav {
+        display: flex;
+        justify-content: flex-end;
+        height: 40px;
+    }
+
+    header nav .navbar {
+        display: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 999;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        flex-direction: column;
+        justify-content: center;
+        transition: 1s;
+    }
+
+    header nav .navbar.active {
+        width: 100%;
+        height: 100%;
+    }
+
+    header nav .navbar .nav-item:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    .burger-menu {
+        display: block;
+        z-index: 9999;
+    }
+
+    header h1 {
+        margin-bottom: 50px;
+    }
+    .tab-content .col-xl-4:not(:last-child){
+        margin-bottom: 50px;
+    }
+    .services h5{
+        text-align: center;
+    }
+    .services .col-xl-3:last-child{
+        margin-top: 50px;
+    }
+    .services .col-xl-3:nth-child(3){
+        margin-top: 50px;
+    }
+    
+    .news .justify-content-start .col-xl-3{
+        order: -1;
+    }
+    
+    .news h2{
+        margin-top: 30px;
+    }
+    .schedule{
+        text-align: center;
+    }
+    .schedule .col-xl-4:last-child{
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .about .col-xl-4:not(:last-child){
+        margin-bottom: 50px;
+    }
+    
+    footer{
+        text-align: center;
+    }
+    footer .col-xl-3,
+    footer .col-xl-4 {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .services .col-xl-3:not(:last-child){
+        margin-bottom: 30px;
+    }
+    footer .col-xl-12 img{
+        display: none;
+    }
+    header h1,
+    header p{
+        text-align: center;
+    }
+    .row-mt .col-xl-4{
+        margin-top: 30px;
+    }
+    .nav-tabs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sanatories .nav-tabs a{
+        margin: 0;
+    }
+    .sanatories .nav-tabs a:not(:last-child){
+        margin-bottom: 30px;
+    }
+}
